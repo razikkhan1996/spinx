@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ZCOOL XiaoWei',cursive;
+}
+
+/* background-images */
+#header-section
+{
+    height: 100vh;
+    width: 100%;
+    /*border: 1px solid maroon;*/
+    background:url(../images/image-hero@2xrexfordthumb.png@1X.png),url(../images/Rectangle\ 5@1X.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size:70% 80%,40% 100%;
+    background-position:right  bottom,left top;
+}
+
+/* logo and hamburder section */
+.nav 
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    padding:1rem
+}
+
+/* tenent portal for text color use inline css */
+.nav .right
+{
+    position: relative;
+    left: 33%;
+    font-size: 1.5rem;
+}
+
+/* header heading  section */
+.header-container
+{
+    width: 70%;
+    height:auto;
+    /*border:1px solid yellow;*/
+    padding: 2rem;
+    position: relative;
+    top: 5rem;
+    left: 6%;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.header-container p
+{
+    font-size: 1.5rem;
+    position: relative;
+    left: 10%;
+    text-decoration: none;
+}
+
+.header-container p a
+{
+    color:white
+    
+}
+
+
+
+
+
+
+
+
+
+/*comman-classes*/
+
+
+.heading-1
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: : bold;
+    letter-spacing: 1rem;
+}
+
+
+.heading-3
+{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(66,66,66);
+
+}
+
+
+
+
+
+
+/*bottom to top button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0,77,64);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+
+#myBtn:hover {
+  background-color: #555;
+}

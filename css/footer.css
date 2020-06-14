@@ -1,0 +1,163 @@
+/*footer section our current openings*/
+
+
+#footer-section
+{
+    width: 100%;
+    height: 100vh;
+    /*border:1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-section .departments,.administration
+{
+    width: 48%;
+    height: 80%;
+    /*border:1px solid blue;*/
+    margin: 2rem;
+
+}
+
+
+/*department section*/
+
+
+.departments .departments-list
+{
+    list-style: none;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.departments-list li a
+{
+    text-decoration: none;
+    color: rgb(189,189,189);
+   
+}
+
+
+.departments-list li i
+{
+    visibility: hidden;
+}
+
+
+.departments-list li:hover i
+{
+    visibility: visible;
+    color: rgb(229,57,53);
+}
+
+
+.departments-list li:hover a
+{
+    color: rgb(38,50,56);
+    text-decoration: underline;
+}
+
+
+
+
+
+/*------------------*/
+
+/*administration section*/
+
+#footer-section .administration
+{
+
+background-image: url("../images/Rectangle 5@1X.png");
+}
+
+
+.administration .administration-list
+{
+    list-style: none;
+    position: relative;
+    text-transform: capitalize;
+    color: rgb(245,245,245);
+    position: relative;
+    left: 5%;
+}
+
+
+.administration-list li
+{
+    padding: .8rem;
+}
+
+
+.administration-list li p
+{
+    color: rgb(189,189,189);
+}
+
+
+.administration-list li i
+{
+    visibility: hidden;
+}
+
+
+.administration-list li:hover i
+{
+    visibility: visible;
+    cursor: pointer;
+    color: rgb(244,81,30);
+}
+
+
+
+
+
+/*copy------right------section*/
+
+.footer-copy-right
+{
+    width: 100%;
+    height: auto;
+    /*border:1px solid black;*/
+    background-color: #063753;
+    
+}
+
+
+
+.footer-copy-right
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-copy-right ul
+{
+    list-style: none;
+}
+
+
+.footer-copy-right ul li
+{
+    display: inline-block;
+    margin: 2rem 2rem;
+}
+
+
+.footer-copy-right ul li a
+{
+    color:rgb(224,224,224);
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+
+
+

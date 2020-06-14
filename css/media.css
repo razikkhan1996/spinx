@@ -1,0 +1,785 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+#header-section
+{
+    height: 80vh;
+    width: 100%;
+    background-size:80% 70%,50% 100%;
+    background-repeat: no-repeat,no-repeat;
+    background-position:right  bottom,left top;
+}
+
+.nav .right
+{
+    position: relative;
+    left: 15%;
+    font-size: 1.2rem;
+}
+
+
+.header-container
+{
+    width: 90%;
+    height:auto;
+    /*border:1px solid yellow;*/
+    padding: .1rem;
+    position: relative;
+    top: 40%;
+    left: 2%;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.header-container p
+{
+    font-size: 1.2rem;
+    position: relative;
+    left: 1%;
+    text-decoration: none;
+}
+
+
+.header-container h1
+{
+    font-size: 2.1rem;
+}
+
+
+
+.header-container p a
+{
+    color:white;
+    text-transform: uppercase;
+    
+}
+
+
+/* ------------------------------------------- */
+
+
+#middle-section
+{
+    width: 100%;
+    height: auto;
+    /*border: 1px solid green;*/
+}
+
+#middle-section .middle-content
+{
+    width: 90%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    padding: 2rem
+}
+
+
+#middle-section .middle-content h1
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: rgb(33,33,33);
+}
+
+#middle-section .middle-content h1 span
+{ 
+    color:rgb(244,67,54);
+}
+
+#middle-section .middle-content p
+{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: rgb(33,33,33);
+    color: rgb(38,50,56);
+    margin-top: 10%
+}
+
+/*--------------------*/
+
+#benfits-section
+{
+    width: 100%;
+    height: auto;
+    /*border:1px solid yellow;*/
+}
+
+#benfits-section h1
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: : bold;
+    letter-spacing: .5rem;
+}
+
+
+#benfits-section h3
+{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(66,66,66);
+    line-height: 1.5rem;
+
+}
+
+
+/*---------------------*/
+
+#benfits-section button
+{
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    outline: none;
+    position: relative;
+    top: 1rem;
+    left: 20%;
+    font-weight: 10px;
+    padding: 10px .8rem;
+    margin: 1rem;
+}
+
+
+
+
+/*----------------------------*/
+#benfits-section .benefits-image
+{
+    width: 90%;
+    height: 30vh;
+    /*border:1px solid maroon;*/
+    margin-bottom: 4rem;
+    position: relative;
+    left: 5%;
+    top:.5rem;
+    background:url('../images/J22_People-Lack-Critical-Thinking-Skills-Graphicimageredfox.png@1X.png');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/*-----------------------------------*/
+
+#end-to-end-flow
+{
+    width: 100%;
+    height: 25vh;
+    /*border:1px solid black;*/
+    background: url("../images/workflow_step_2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*-----------------------------*/
+
+#footer-section
+{
+    width: 100%;
+    height: auto;
+    /*border:1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-section .departments,.administration
+{
+    width: 90%;
+    height: 80%;
+    /*border:1px solid blue;*/
+    margin: .5rem;
+
+}
+
+
+/*department section*/
+
+
+.departments .departments-list
+{
+    list-style: none;
+    position: relative;
+    top: 20%;
+    left: 1%;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+.departments-list li
+{
+
+    margin-top: 1rem;
+   
+}
+
+
+/*comman-classes*/
+
+
+.heading-1
+{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: : bold;
+    letter-spacing: .3rem;
+}
+
+
+.heading-3
+{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(66,66,66);
+
+}
+
+
+/*copy------right------section*/
+
+.footer-copy-right
+{
+    width: 90%;
+    height: auto;
+    /*border:1px solid black;*/
+    background-color: #063753;
+    position: absolute;
+    left: 5%;
+    
+}
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px)
+{
+    #header-section
+    {
+        height: 90vh;
+        width: 100%;
+        background-size:70% 70%,50% 100%;
+        background-repeat: no-repeat,no-repeat;
+        background-position:right  bottom,left top;
+    }
+    
+    .nav .right
+    {
+        position: relative;
+        left: 15%;
+        font-size: 1.2rem;
+    }
+    
+    
+    .header-container
+    {
+        width: 90%;
+        height:auto;
+        /*border:1px solid yellow;*/
+        padding: .1rem;
+        position: relative;
+        top: 30%;
+        left: 2%;
+        font-size: 1.5rem;
+        text-align: left;
+        line-height: 4rem;
+    }
+    
+    .header-container p
+    {
+        font-size: 1.4rem;
+        position: relative;
+        left: 1%;
+        text-decoration: none;
+    }
+    
+    .header-container p a
+    {
+        color:white;
+        text-transform: uppercase;
+        
+    }
+
+
+    /*  */
+
+#middle-section
+{
+    width: 100%;
+    height: auto;
+    /*border: 1px solid green;*/
+}
+
+#middle-section .middle-content
+{
+    width: 90%;
+    height: auto;
+    /*border: 1px solid blue;*/
+    position: relative;
+    top: 10%;
+    left: 5%;
+    padding: 2rem
+}
+
+
+#middle-section .middle-content h1
+{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: rgb(33,33,33);
+}
+
+#middle-section .middle-content h1 span
+{ 
+    color:rgb(244,67,54);
+}
+
+#middle-section .middle-content p
+{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: rgb(33,33,33);
+    color: rgb(38,50,56);
+    margin-top: 10%
+}
+
+
+/*---------------*/
+
+#benfits-section button
+{
+    height: 3rem;
+    width: 9rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    top: 1rem;
+    left: 5%;
+    font-weight: 10px;
+    padding: 10px .8rem;
+    margin: 1rem;
+}
+
+
+
+#benfits-section .benefits-image
+{
+    width: 80%;
+    height: 80vh;
+    /*border:1px solid maroon;*/
+    margin-bottom: 4rem;
+    position: relative;
+    left: 10%;
+    top:.5rem;
+    background:url('../images/J22_People-Lack-Critical-Thinking-Skills-Graphicimageredfox.png@1X.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-----------------------------------------*/
+
+#end-to-end-flow
+{
+    width: 100%;
+    height: 70vh;
+    /*border:1px solid black;*/
+    background: url("../images/workflow_step_2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*-----------------------------------------*/
+
+
+#footer-section
+{
+    width: 100%;
+    height: auto;
+    /*border:1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-section .departments,.administration
+{
+    width: 45%;
+    height: 80%;
+    /*border:1px solid blue;*/
+    margin: .5rem;
+
+}
+
+
+.departments .departments-list
+{
+    list-style: none;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.departments-list li
+{
+
+    margin-top: 3rem;
+   
+}
+
+
+
+    
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) 
+{
+    #header-section
+    {
+        height: 90vh;
+        width: 100%;
+        /*border: 1px solid maroon;*/
+        background:url(../images/image-hero@2xrexfordthumb.png@1X.png),url(../images/Rectangle\ 5@1X.png);
+        background-repeat: no-repeat,no-repeat;
+        background-size:70% 80%,40% 100%;
+        background-position:right  bottom,left top;
+    }
+    
+    /* logo and hamburder section */
+    .nav 
+    {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 1rem;
+        padding:1rem
+    }
+    
+    /* tenent portal for text color use inline css */
+    .nav .right
+    {
+        position: relative;
+        left: 33%;
+        font-size: 1.5rem;
+    }
+    
+    /* header heading  section */
+    .header-container
+    {
+        width: 80%;
+        height:auto;
+        /*border:1px solid yellow;*/
+        padding: 2rem;
+        position: relative;
+        top: 10rem;
+        left: 6%;
+        text-transform: capitalize;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .header-container h1
+    {
+        font-size: 6rem;
+    }
+    
+    .header-container p
+    {
+        font-size: 2rem;
+        position: relative;
+        left: 10%;
+        text-decoration: none;
+    }
+    
+    .header-container p a
+    {
+        color:white
+        
+    }
+
+    /*-------------------*/
+
+
+    #middle-section
+{
+    width: 100%;
+    height: auto;
+    /*border: 1px solid green;*/
+}
+
+#middle-section .middle-content
+{
+    width: 60%;
+    height: 90%;
+    /*border: 1px solid blue;*/
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+#middle-section .middle-content h1
+{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: rgb(33,33,33);
+}
+
+#middle-section .middle-content h1 span
+{ 
+    color:rgb(244,67,54);
+}
+
+#middle-section .middle-content p
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: rgb(33,33,33);
+    color: rgb(38,50,56);
+    margin-top: 10%
+}
+
+
+/*------------------*/
+#benfits-section button
+{
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    top: 1rem;
+    left: 20%;
+    font-weight: 10px;
+    padding: 10px .8rem;
+    margin: 1rem;
+}
+
+/*---------------------------------------------------*/
+
+
+#footer-section
+{
+    width: 100%;
+    height: auto;
+    /*border:1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-section .departments,.administration
+{
+    width: 47%;
+    height: auto;
+    /*border:1px solid blue;*/
+    margin: .1rem;
+
+}
+
+
+/*department section*/
+
+
+.departments .departments-list
+{
+    list-style: none;
+    position: relative;
+    top: 20%;
+    left: 3%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+.departments-list li a
+{
+    text-decoration: none;
+    color: rgb(189,189,189);
+   
+}
+
+
+.departments-list li i
+{
+    visibility: hidden;
+}
+
+
+.departments-list li:hover i
+{
+    visibility: visible;
+    color: rgb(229,57,53);
+}
+
+
+.departments-list li:hover a
+{
+    color: rgb(38,50,56);
+    text-decoration: underline;
+}
+
+
+.departments-list li
+{
+
+    margin-top: 2.1rem;
+   
+}
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+
+
+    /*footer section our current openings*/
+
+
+#footer-section
+{
+    width: 100%;
+    height: auto;
+    /*border:1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-section .departments,.administration
+{
+    width: 48%;
+    height: auto;
+    /*border:1px solid blue;*/
+    margin: 2rem;
+
+}
+
+
+/*department section*/
+
+
+.departments .departments-list
+{
+    list-style: none;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.departments-list li a
+{
+    text-decoration: none;
+    color: rgb(189,189,189);
+   
+}
+
+
+.departments-list li i
+{
+    visibility: hidden;
+}
+
+
+.departments-list li:hover i
+{
+    visibility: visible;
+    color: rgb(229,57,53);
+}
+
+
+.departments-list li:hover a
+{
+    color: rgb(38,50,56);
+    text-decoration: underline;
+}
+
+
+
+
+
+/*------------------*/
+
+/*administration section*/
+
+#footer-section .administration
+{
+
+background-image: url("../images/Rectangle 5@1X.png");
+}
+
+
+.administration .administration-list
+{
+    list-style: none;
+    position: relative;
+    text-transform: capitalize;
+    color: rgb(245,245,245);
+    position: relative;
+    left: 5%;
+}
+
+
+.administration-list li
+{
+    padding: .8rem;
+}
+
+
+.administration-list li p
+{
+    color: rgb(189,189,189);
+}
+
+
+.administration-list li i
+{
+    visibility: hidden;
+}
+
+
+.administration-list li:hover i
+{
+    visibility: visible;
+    cursor: pointer;
+    color: rgb(244,81,30);
+}
+
+
+}
